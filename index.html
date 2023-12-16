@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <style>
+
+      nav a{
+        margin-right: 40px;
+        text-decoration: none;
+      }
+      #homeLink{
+        margin-left: 10px;
+      }
       header{
        background-color: #F87433;
       padding: 10px;
       }
       span{
         color: white;
+        margin-right: 30px;
       }
 
     </style>
@@ -18,20 +27,18 @@
   <body>
     <!-- Header Section -->
     <header>
-      <span
-        >Name: Sayali Chaudhari &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile No:
-        1234567899 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email Id: abc@gmail.com</span
-      >
+      <span>Name: Sayali Chaudhari</span><span>Mobile No:
+        1234567899</span> <span>Email Id: abc@gmail.com</span>
     </header>
     <hr />
     <!-- Navigavtion Section -->
     <nav>
-      <a href="home.html" target="mainFrame">HOME</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="home.html" target="mainFrame" id="homeLink">HOME</a
+      >
       <a href="techStack.html" target="mainFrame">TECH STACK</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="project.html" target="mainFrame">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="education.html" target="mainFrame">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      >
+      <a href="project.html" target="mainFrame">PROJECT</a>
+      <a href="education.html" target="mainFrame">EDUCATION</a>
       <a href="other.html" target="mainFrame">OTHER</a>
     </nav>
     <hr />
@@ -41,7 +48,7 @@
       name="mainFrame"
       frameborder="0"
       width="1500px"
-      height="450"
+      height="550"
 
       src="techStack.html"
       name="mainFrame"
