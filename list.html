@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(assets/developer.png.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #fruits li{
+            list-style-type: none;
+        }
+        #fruits li::before{
+            content: "👍";
+        }
+#para::selection{
+    background-color: aqua;
+}
+    </style>
+</head>
+
+<body>
+    <h1>List of Fruits</h1>
+    <ul id="fruits">
+        <li>Apple</li>
+        <li id="mango">Mango</li>
+        <li>Graps</li>
+
+    </ul>
+    <hr>
+    <h2> List Of Friends </h2>
+    <ol>
+       <li>Jenny</li>
+       <li>Bill</li>
+       <li>Stew</li>
+       <li>Elon</li> 
+    </ol>
+    <hr>
+
+    <h2> List Of Friends with categories </h2>
+    <ol>
+        <li> Best Buddies:- 
+            <ul>
+                <li>Stew</li>
+                <li>Elon</li>
+                <li>Mark</li>
+                <li>Murty</li>
+            </ul>
+        </li>
+        <li> College Mates 
+            <ol>
+                <li>Jenny</li>
+                <li>Herry</li>
+                <li>Merry</li>
+                <li>Curry</li>
+            </ol>
+        </li>
+        <li> Office Friends </li>
+    </ol>
+    <hr>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellendus, porro placeat adipisci accusamus ipsa voluptas eaque ipsam, dicta, quae veniam perferendis magni sed expedita dignissimos ut quibusdam asperiores obcaecati perspiciatis voluptate vel nemo tempore velit. Quos, ut accusantium veritatis, minus quidem enim omnis nulla a eaque quasi ea iusto.</p>
+</body>
+<!-- 
+    table,tr,td,th{
+            border: 2px solid coral;
+            border-collapse: collapse;
+        }
+        tr:hover{
+            background-color: cadetblue;
+        }
+ -->
+</html>

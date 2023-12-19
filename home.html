@@ -28,37 +28,44 @@ li{
   font-family: 'Roboto Flex', sans-serif;
 }
 ul li{
-  list-style-type: square;
+  list-style-type: none;
   font-family: 'Roboto Flex', sans-serif;
 }
+#note li::before{
+  content:"👉";
+}
+.note::selection{
+  background-color: aqua;
+}
+
     </style>
   </head>
   <body>
-    <H2 class="heading">Career Objectives</H2>
+    <H2 class="heading"><img src="assets/career.png" alt="" height="40" width="40">Career Objectives</H2>
     <P style="font-family: 'Roboto Flex', sans-serif;">TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</P>
 
-    <h2 class="heading">Professional Summery</h2>
-    <ul>
-      <li>
+    <h2 class="heading"><img src="assets/note.png" alt=""height="40" width="40">Professional Summery</h2>
+    <ul id="note";>
+      <li class="note">
         Having 5 years of experience in developing Single page Web Applications
-        using <span>Angular 13</span><b>, HTML5, CSS3, Bootstrap 5, JavaScript, ES6, TypeScript</b>
+        using <span>Angular 13</span><b class="note">, HTML5, CSS3, Bootstrap 5, JavaScript, ES6, TypeScript</b>
       </li>
     
-      <li id="gi">
-        Experience on working with version control system -<b>GIT and GitHub</b> 
+      <li id="gi" class="note">
+        Experience on working with version control system -<b class="note">GIT and GitHub</b> 
       </li>
-      <li>xperience working with<b>JIRA</b>for user stories and bug tracking</li>
-      <li>
-        Strong Debugging & Troubleshooting code experience using <b>Chrome
+      <li class="note">Experience working with<b>JIRA</b class="note">for user stories and bug tracking</li>
+      <li class="note">
+        Strong Debugging & Troubleshooting code experience using <b class="note">Chrome
           Developer Tool</b>
       </li>
-      <li>Working exposure on ID's like <b>VS Code and Notepad++</b></li>
-      <li>Good working experience under Agile methodologies environment</li>
-      <li>
+      <li class="note">Working exposure on ID's like <b class="note">VS Code and Notepad++</b></li>
+      <li class="note">Good working experience under Agile methodologies environment</li>
+      <li class="note">
         Experience in using Chrome Developer Tool for debugging and
-        troubleshooting the code Knowledge of <b>NodeJS</b>
+        troubleshooting the code Knowledge of <b class="note">NodeJS</b>
       </li>
-      <li>Knowledge of <b>API and Database</b></li>
+      <li class="note">Knowledge of <b class="note">API and Database</b></li>
     </ul>
   </body>
 </html>
