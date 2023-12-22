@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Block display</title>
+  </head>
+  <style>
+    #maindiv {
+      display: inline-block;
+      background-color: bisque;
+      margin: 30px;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 10px 10px 5px rgb(249, 244, 227);
+    }
+
+    #st,
+    #Re,
+    #We {
+      padding: 3px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: bolder;
+      font-size: 40px;
+      margin: 0px;
+      line-height: 1.2;
+    }
+    .fa-arrow-circle-right{
+      font-size: 70px;
+      color: #585858;
+      margin-left: 100px;
+      display:inline-block;
+      
+    }
+    .fa-arrow-circle-right:hover{
+        color: darkred;
+    }
+    #para{
+        display:inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+  </style>
+  <body>
+    <div id="maindiv">
+      <div id="sub">
+        <h2 id="st">2 Stocks</h2>
+        <h2 id="Re">Recommendation</h2>
+        <h2 id="We">Weekly</h2>
+      </div>
+      <div id="para">
+       <p>
+          Midcap Stocks Gaining<br />
+          Momentum After 30-40% fall<br />from 52 week High.
+        </p>
+
+    </div>
+        <span><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+
+      
+    </div>
+  </body>
+</html>
